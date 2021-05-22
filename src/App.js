@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <nav className="navbar navbar-expand navbar-dark bg-dark">
-        <a href="/tutorials" className="navbar-brand">
+        <a href="/" className="navbar-brand">
           Online Class
         </a>
         <div className="navbar-nav mr-auto">
