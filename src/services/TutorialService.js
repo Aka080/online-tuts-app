@@ -1,6 +1,7 @@
 import http from "../http-common";
 
 const getAll = () => {
+  console.log(http)
   return http.get("/tutorials");
 };
 

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import http from "../http-common";
+
 import {
   retrieveTutorials,
   findTutorialsByTitle,
@@ -50,7 +52,13 @@ const TutorialsList = () => {
     dispatch(findTutorialsByTitle(searchTitle));
   };
   
+    
+    console.log(http)
+    
+ 
+
   return (
+    
     <div className="list row justify-content-center">
       <div className="col-md-12">
         <div className="input-group mb-3">
