@@ -1,0 +1,1 @@
+This app demonstrates CRUD application using React and Redux
