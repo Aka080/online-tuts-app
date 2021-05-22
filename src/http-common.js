@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://localhost:3001",
+  baseURL: " https://my-json-server.typicode.com/Aka080/online-tuts-app",
   headers: {
     "Content-type": "application/json"
   }
